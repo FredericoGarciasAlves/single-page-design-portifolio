@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Single-page-design-portifolio</title>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="global.css" />
+        <link rel="stylesheet" href="responsive.css" />
+    </head>
+    <body>
+        <main class="main">
+            <div class="header">
+                <img src="./assets/images/logo.svg" alt="Logo" />
+                <button type="button" class="btn-header" id="btn-header">
+                    Free Consultation
+                </button>
+            </div>
+            <h1 class="title-main">Design solutions made easy</h1>
+            <p class="p-title">
+                With over ten years of eperience in various design diciplines,
+                I'm your one-stop shop for yours design needs
+            </p>
+
+            <div class="container-tools">
+                <div class="box-tools-graphic">
+                    <img
+                        src="./assets/images/pattern-graphic-design.svg"
+                        alt="Tools of graphic design"
+                        class="img-tools"
+                    />
+                    <p class="p-box-tools">Graphic Design</p>
+                </div>
+                <div class="box-tools-ui">
+                    <img
+                        src="./assets/images/pattern-ui-ux.svg"
+                        alt="Tools of UI/UX"
+                        class="img-tools"
+                    />
+                    <p class="p-box-tools">UI/UX</p>
+                </div>
+                <div class="box-tools-apps">
+                    <img
+                        src="./assets/images/pattern-apps.svg"
+                        alt="Tools of Apps"
+                        class="img-tools"
+                    />
+                    <p class="p-box-tools">Apps</p>
+                </div>
+                <div class="box-tools-photography">
+                    <img
+                        src="./assets/images/pattern-photography.svg"
+                        alt="Tools of Photography"
+                        class="img-tools"
+                    />
+                    <p class="p-box-tools">Photography</p>
+                </div>
+                <div class="box-tools-iilustration">
+                    <img
+                        src="./assets/images/pattern-illustrations.svg"
+                        alt="Tools of IIlustrations"
+                        class="img-tools"
+                    />
+                    <p class="p-box-tools">IIlustrations</p>
+                </div>
+                <div class="box-tools-motion">
+                    <img
+                        src="./assets/images/pattern-motion-graphics.svg"
+                        alt="Tools of Motion Graphics"
+                        class="img-tools"
+                    />
+                    <p class="p-box-tools">Motion Graphics</p>
+                </div>
+            </div>
+            <div class="box-i">
+                <img
+                    src="./assets/images/image-amy.webp"
+                    alt="Image of Amy"
+                    class="img-amy"
+                />
+                <div class="box-i-description">
+                    <h2 class="i-title">
+                        I'm Amy, and I'd love to work on your next project
+                    </h2>
+                    <p class="i-p">
+                        I love working with others to create beautiful design
+                        solutions. I've designed everthing from brand
+                        iilustration to complete mobile apps. I'm also jandy
+                        with a camera!
+                    </p>
+                    <button type="button" class="btn-i">
+                        Free Consultation
+                    </button>
+                </div>
+            </div>
+            <h2 class="my-work">My Work</h2>
+            <div class="container-imgs-work">
+                <img
+                    src="./assets/images/image-slide-1.jpg"
+                    alt="Iilustration one"
+                    class="img-work"
+                />
+                <img
+                    src="./assets/images/image-slide-2.jpg"
+                    alt="Iilustration two"
+                    class="img-work"
+                />
+                <img
+                    src="./assets/images/image-slide-3.jpg"
+                    alt="Iilustration tree"
+                    class="img-work"
+                />
+                <img
+                    src="./assets/images/image-slide-4.jpg"
+                    alt="Iilustration four"
+                    class="img-work"
+                />
+                <img
+                    src="./assets/images/image-slide-5.jpg"
+                    alt="Iilustration five"
+                    class="img-work"
+                />
+            </div>
+            <div class="box-arrows">
+                <button
+                    type="button"
+                    class="btn-arrow-left"
+                    onclick="moveSlide(-1)"
+                >
+                    <img
+                        src="./assets/images/icon-arrow-left.svg"
+                        alt="Arrow left"
+                        class="arrow-left"
+                    />
+                </button>
+                <button
+                    type="button"
+                    class="btn-arrow-right"
+                    onclick="moveSlide(1)"
+                >
+                    <img
+                        src="./assets/images/icon-arrow-right.svg"
+                        alt="Arrow right"
+                        class="arrow-right"
+                    />
+                </button>
+            </div>
+            <div class="box-call">
+                <div class="box-call-description">
+                    <h2 class="call-title">Book a call with me</h2>
+                    <p class="call-p">
+                        I'd love to have a chat to see how I can help you. The
+                        best first step is for us to discuss your project during
+                        a free consultation. Then we can move forward from
+                        there.
+                    </p>
+                </div>
+                <button type="button" class="btn-free-consultation-call">
+                    Free Consultation
+                </button>
+            </div>
+            <div class="main-footer">
+                <img src="./assets/images/logo.svg" alt="Logo" />
+                <button type="button" class="btn-free-consultation-footer">
+                    Free Consultation
+                </button>
+            </div>
+        </main>
+        <script src="script.js"></script>
+    </body>
+</html>
