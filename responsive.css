@@ -118,3 +118,178 @@
         height: 6.4rem;
     }
 }
+
+@media (max-width: 375px) {
+    .main {
+        width: 37.5rem;
+    }
+
+    .main .header {
+        width: 34.3rem;
+        height: 4.8rem;
+        margin-top: 1.6rem;
+    }
+
+    .main .header .logo {
+        width: 4.8rem;
+        height: 4.8rem;
+    }
+
+    .main .header .btn-header {
+        height: 4.4rem;
+        width: 17.6rem;
+        font-size: 1.3rem;
+    }
+
+    .main .title-main {
+        font-size: 4rem;
+        margin-top: 3.2rem;
+        text-align: center;
+    }
+
+    .main .p-title {
+        font-size: 1.6rem;
+        width: 28.5rem;
+        margin-top: 1.6rem;
+        line-height: 2.5rem;
+    }
+
+    .main .container-tools {
+        gap: 2.4rem;
+        grid-template-rows: repeat(6, 18.2rem);
+        grid-template-columns: repeat(2, 15.9rem);
+        margin-top: 3.2rem;
+    }
+
+    .main .container-tools .box-tools-ui {
+        grid-area: 3 / 1 / 4 / 2;
+    }
+
+    .main .container-tools .box-tools-apps {
+        grid-area: 3 / 2 / 4 / 3;
+    }
+
+    .main .container-tools .box-tools-photography {
+        grid-area: 5 / 1 / 6 / 3;
+    }
+
+    .main .container-tools .box-tools-iilustration {
+        grid-area: 4 / 1 / 5 / 3;
+    }
+
+    .main .container-tools .box-tools-motion {
+        grid-area: 6 / 1 / 7 / 3;
+    }
+
+    .main .box-i {
+        width: 34.3rem;
+        height: 60.2rem;
+        margin-top: 10rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 10rem;
+    }
+
+    .main .box-i .img-amy {
+        width: 30rem;
+        height: 30rem;
+        position: static;
+    }
+
+    .main .box-i .box-i-description {
+        height: 26.2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-right: 0;
+    }
+
+    .main .box-i .box-i-description .i-title {
+        font-size: 2.5rem;
+        text-align: center;
+        font-weight: 700;
+    }
+
+    .main .box-i .box-i-description .i-p {
+        font-size: 1.6rem;
+        text-align: center;
+        color: #7a746e;
+        line-height: 2.5rem;
+        margin-top: 2.4rem;
+    }
+
+    .main .box-i .box-i-description .btn-i {
+        width: 17.6rem;
+        height: 4.4rem;
+        font-size: 1.3rem;
+        font-weight: 600;
+        margin-top: 2.4rem;
+        margin-left: 8.4rem;
+    }
+
+    .main .my-work {
+        margin-top: 10rem;
+        font-size: 2.4rem;
+    }
+
+    .main .container-imgs-work {
+        column-gap: 1.5rem;
+        width: 37.5rem;
+        margin-top: 3.2rem;
+    }
+
+    .main .container-imgs-work .img-work {
+        width: 27rem;
+        height: 18rem;
+    }
+
+    .main .box-call {
+        width: 34.3rem;
+        height: 35.2rem;
+        padding-left: 2.4rem;
+        padding-right: 2.4rem;
+        margin-top: 5rem;
+    }
+
+    .main .box-call .box-call-description .call-title {
+        font-size: 2.7rem;
+        color: #fff;
+    }
+
+    .main .box-call .box-call-description .call-p {
+        font-size: 1.6rem;
+        text-align: center;
+        margin-top: 2.5rem;
+        width: 29.5rem;
+        line-height: 2.5rem;
+    }
+
+    .main .box-call .btn-free-consultation-call {
+        font-size: 1.3rem;
+        font-weight: 700;
+        width: 17.6rem;
+        height: 4.4rem;
+        margin-left: 6rem;
+        margin-top: 2.4rem;
+    }
+
+    .main .main-footer {
+        width: 34.3rem;
+        height: 4.8rem;
+        margin-top: 4rem;
+        margin-bottom: 3.2rem;
+    }
+
+    .main .main-footer .logo {
+        width: 4.8rem;
+        height: 4.8rem;
+    }
+
+    .main .main-footer .btn-free-consultation-footer {
+        width: 17.6rem;
+        height: 4.4rem;
+        font-size: 1.3rem;
+    }
+}
