@@ -53,6 +53,7 @@ body {
     text-align: center;
     width: 73rem;
     margin-top: 2.4rem;
+    line-height: 2.8rem;
 }
 
 .main .container-tools {
@@ -126,7 +127,7 @@ body {
     position: absolute;
     left: 2.4rem;
     bottom: 2.4rem;
-    font-size: 1.7rem;
+    font-size: 2.4rem;
     font-weight: 700;
     color: #fff;
 }
@@ -158,6 +159,7 @@ body {
 .main .box-i .box-i-description .i-p {
     font-size: 1.8rem;
     color: #7a746e;
+    line-height: 2.5rem;
     margin-top: 3.4rem;
 }
 

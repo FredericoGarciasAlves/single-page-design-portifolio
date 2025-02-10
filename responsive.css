@@ -1,0 +1,120 @@
+@media (max-width: 768px) {
+    .main {
+        width: 76.8rem;
+    }
+
+    .main .header {
+        width: 68.9rem;
+    }
+
+    .main .title-main {
+        font-size: 4.3rem;
+    }
+
+    .main .p-title {
+        font-size: 1.9rem;
+        text-align: center;
+        width: 57.3rem;
+        margin-top: 2.7rem;
+    }
+
+    .main .container-tools {
+        grid-template-rows: repeat(3, 18.2rem);
+        grid-template-columns: repeat(4, 15.5rem);
+        margin-top: 6.4rem;
+    }
+
+    .main .container-tools .box-tools-photography {
+        grid-area: 3 / 1 / 4 / 3;
+    }
+
+    .main .container-tools .box-tools-motion {
+        grid-area: 3 / 3 / 4 / 5;
+    }
+
+    .main .box-i {
+        width: 76.8rem;
+        height: 36.4rem;
+        overflow: hidden;
+        position: relative;
+        justify-content: end;
+        display: flex;
+        margin-top: 12rem;
+    }
+
+    .main .box-i .img-amy {
+        width: 36.4rem;
+        height: 36.4rem;
+        position: absolute;
+        left: -45px;
+        top: 0;
+    }
+
+    .main .box-i .box-i-description {
+        height: 36.4rem;
+        width: 33.9rem;
+        margin-right: 4rem;
+    }
+
+    .main .box-i .box-i-description .i-title {
+        font-size: 3.2rem;
+        font-weight: 700;
+    }
+
+    .main .box-i .box-i-description .i-p {
+        margin-top: 2.4rem;
+    }
+
+    .main .box-i .box-i-description .btn-i {
+        width: 22.8rem;
+        height: 5.6rem;
+        background-color: #eb7565;
+        color: #fff;
+        font-size: 1.5rem;
+        font-weight: 600;
+        margin-top: 3.2rem;
+        border-radius: 10rem;
+        border: none;
+    }
+
+    .main .my-work {
+        margin-top: 12rem;
+        font-size: 3.2rem;
+    }
+
+    .main .box-call {
+        width: 69rem;
+        height: 35.2rem;
+        display: block;
+        padding-left: 7.5rem;
+        padding-right: 7.5rem;
+        margin-top: 12rem;
+    }
+
+    .main .box-call .box-call-description .call-title {
+        font-size: 3.2rem;
+        margin-top: 5.6rem;
+        text-align: center;
+    }
+
+    .main .box-call .box-call-description .call-p {
+        line-height: 2.8rem;
+        text-align: center;
+    }
+
+    .main .box-call .btn-free-consultation-call {
+        margin-left: 15.6rem;
+        margin-top: 2.6rem;
+    }
+
+    .main .box-call .btn-free-consultation-call:hover {
+        background-color: #f6a560;
+        transition: ease-in-out 0.7s;
+        cursor: pointer;
+    }
+
+    .main .main-footer {
+        width: 68.9em;
+        height: 6.4rem;
+    }
+}
